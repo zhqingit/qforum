@@ -1,5 +1,5 @@
 # qforum
-Single-page forum application built in ReactJS and Django Rest Framework. The application is used to practice various technologies, such as duo token authentication, apollo client, antd, umijs and so on.
+Single-page forum application built in ReactJS and Django. The application is used to practice various technologies, such as duo token authentication, apollo client, antd, umijs and so on.
 
 ## Authentication
 * duo token
