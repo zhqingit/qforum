@@ -24,6 +24,11 @@ Single-page forum application built in ReactJS and Django. The application is us
 
 ## Demo Screenshots
 ![forum](preview/forum.png)
+![post](preview/post.png)
+![register](preview/register.png)
+![super](preview/super.png)
+![thread](preview/thread.png)
+![ch](preview/ch.png)
 
 
 ## Installation
