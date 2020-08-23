@@ -1,0 +1,35 @@
+
+type ForumsPayload{
+  id: Int
+  name: String
+  description: String
+  slug: String
+  status: String
+  nThread: Int
+  nPost: Int
+  thread: String
+  thread_id: Int
+  thread_last_activity: String
+  last_user: String
+  last_avatar: String
+  last_post_id: Int
+}
+
+type SectionsPayload{
+  id: Int
+  name: String
+  description: String
+  slug: String
+  status: String
+  forums: [ForumsPayload]
+}
+
+type SectionActPayload{
+  fail: Boolean!
+  message: String
+}
+
+type BasicActPayload{
+  fail: Boolean!
+  message: String
+}

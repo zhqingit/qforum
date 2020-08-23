@@ -1,0 +1,2 @@
+openssl genrsa -out pairs/rsa_2048_priv.pem 2048
+openssl rsa -pubout -in pairs/rsa_2048_priv.pem -out pairs/rsa_2048_pub.pem

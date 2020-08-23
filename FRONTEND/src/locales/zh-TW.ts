@@ -1,0 +1,18 @@
+export default {
+  'site.title':'站点 - 标题',
+  'about.title':'关于 - 标题',
+  LOGIN_TITLE:'登錄',
+  HEADER_HOME:'主頁',
+  HEADER_HOTSPOT:'熱點',
+  HEADER_USER:'用戶',
+  REGISTER:'註冊',
+  LOGIN:'登錄',
+  EMAIL:'電子郵件',
+  CONFIRM_PASSWORD:'確認密碼',
+  CONFIRM_PASSWORD_MESSAGE:'請確認密碼',
+  PASSWORD_NOT_CONSISTENT:'密碼不一致',
+  NICKNAME:'暱稱',
+  NICKNAME_ANNO:'希望別人如何稱呼你!',
+  NICKNAME_MESSAGE:'請輸入暱稱!',
+  AVATAR:'頭像',
+}

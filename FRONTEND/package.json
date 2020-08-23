@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi generate tmp",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/pro-layout": "^5.0.12",
+    "@apollo/react-hooks": "^3.1.5",
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.2.4",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-link-context": "^1.0.20",
+    "apollo-upload-client": "^13.0.0",
+    "braft-editor": "^2.3.9",
+    "graphql": "^15.1.0",
+    "htm": "^3.0.4",
+    "jsencrypt": "^3.0.0-rc.1",
+    "lint-staged": "^10.0.7",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.27.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.12.0",
+    "react-google-recaptcha-v3": "^1.5.2",
+    "react-icons": "^3.10.0",
+    "react-media-hook": "^0.4.7",
+    "react-moment": "^0.9.7",
+    "umi": "^3.2.4",
+    "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "@umijs/plugin-sass": "^1.1.1"
+  }
+}

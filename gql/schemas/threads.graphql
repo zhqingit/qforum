@@ -1,0 +1,40 @@
+
+type ThreadsPayload{
+  id: Int
+  title: String
+  content: String
+  creator: String
+  created_at: String
+  last_activity: String
+  nickname: String
+  avatar: String
+  replies: Int
+  last_user: String
+  last_avatar: String
+  last_reply_at: String
+  last_reply_id: Int
+  nView: Int
+}
+
+type PostPayload{
+  id: Int
+  content: String
+  creator: String
+  created_at: String
+  avatar: String
+}
+
+type ThreadPayload{
+  fail: Boolean
+  message: String
+  id: Int
+  title: String
+  content: String
+  creator: String
+  created_at: String
+  avatar: String
+  replies: Int
+  forumName:String
+  posts: [PostPayload]
+  nPost: Int
+}

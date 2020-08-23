@@ -1,0 +1,26 @@
+
+type LoginPayload {
+  authToken: String
+  refreshToken: String
+  fail: Boolean!
+  avatar: String
+  message: String
+  key: String
+  nickname: String
+}
+
+type RegisterPayload {
+  fail: Boolean!
+  message: String
+}
+
+type AuthPayload{
+  isAuth: Boolean!
+  needUpdate: Boolean
+}
+
+type UpdateTokenPayload{
+  updated: Boolean!
+  authToken: String
+  refreshToken: String
+}

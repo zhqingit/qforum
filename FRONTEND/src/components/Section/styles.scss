@@ -1,0 +1,8 @@
+@import '../../themes/qforum.scss';
+
+.link{
+  color: rgba(0,0,0,0.65);
+  &:hover{
+    color: #1890ff;
+  }
+}

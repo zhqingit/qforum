@@ -1,0 +1,10 @@
+FRONTEND1/
+README.txt
+cmd.py
+db.sqlite31
+README_bak.md
+encrypted_data.bin
+FRONTEND/node_modules
+FRONTEND/node_modules
+FRONTEND/src/.umi/.cache
+git_cmd.txt

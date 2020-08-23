@@ -1,0 +1,13 @@
+
+
+type UserPayload{
+  email: String
+  avatar: String
+  nickname: String
+  message: String!
+}
+
+type IsSuperPayload{
+  isSuper: Boolean!
+  message: String
+}

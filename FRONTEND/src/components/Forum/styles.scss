@@ -1,0 +1,29 @@
+@import '../../themes/qforum.scss';
+
+.link{
+  color: rgba(0,0,0,0.65);
+  &:hover{
+    color: #1890ff;
+  }
+}
+
+.breadLink{
+  padding: 5px 0 0 15px;
+}
+
+.newThreadButton{
+  padding: 5px 0 0 10px;
+}
+
+.forumHeader{
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.newEditor{
+  border-style: double;
+  border-width: thin;
+  border-color: $global-background-color;
+}

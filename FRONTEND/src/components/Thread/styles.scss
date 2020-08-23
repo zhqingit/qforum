@@ -1,0 +1,31 @@
+@import "../../themes/qforum.scss";
+
+.creator {
+  //background: rgb(0,0,0,0.05);
+  border-right-style: double;
+  border-width: thin;
+  border-color: $global-background-color;
+  margin-left: 0px;
+  display: inline-block;
+}
+
+.editor {
+  //background: #212121;
+}
+
+.content {
+  fontSize:20px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.breadLink{
+  padding: 5px 0 0 15px;
+}
+
+.threadTitle{
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}

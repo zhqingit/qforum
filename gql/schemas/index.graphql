@@ -1,0 +1,25 @@
+scalar Upload
+
+type Query{
+  user: String
+  pubkey: String
+  userProfile: UserPayload
+  isAuthenticated1(permission:String): AuthPayload
+  isAuthenticated: AuthPayload
+  isSuper: IsSuperPayload
+  updateToken(refreshToken:String!): UpdateTokenPayload
+  sections: [SectionsPayload]
+  threads(forumName:String!): [ThreadsPayload]
+  thread(threadId:Int!, currentPage:Int, pageSize:Int): ThreadPayload
+}
+
+type Mutation{
+  login(email:String!,password:String!, encodedVars:[String], remember:Boolean): LoginPayload
+  register(password:String!, email:String!, nickname:String, avatar:Upload, encodedVars:[String]): RegisterPayload
+  resetPassword(opassword:String!, password:String!, encodedVars:[String]): RegisterPayload
+  updateSetting(nickname:String, avatar:Upload): RegisterPayload
+  sectionAct(action:String!,name:String, description:String, id:Int): SectionActPayload
+  forumAct(action:String!,name:String, description:String, id:Int, sectionId:Int): SectionActPayload
+  threadAct(action:String!,title:String, content:String, threadId:Int, forumName:String): BasicActPayload
+  postAct(action:String!, content:String, threadId:Int!): BasicActPayload
+}
