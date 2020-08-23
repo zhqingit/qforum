@@ -22,6 +22,10 @@ Single-page forum application built in ReactJS and Django. The application is us
  * [etc](https://github.com/zhqingit/qforum/requirements.txt)
 
 
+## Demo Screenshots
+![forum](preview/forum.png)
+
+
 ## Installation
 
 Make sure you have following software installed in your system:
